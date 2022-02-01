@@ -1,0 +1,83 @@
+body {
+  font-weight: bold;
+  list-style: none;
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons:hover,
+.btn:hover {
+  transform: scale(1.1);
+}
+
+button,
+button:focus {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.dress {
+  display: flex;
+}
+
+.dress img {
+  max-width: 50px;
+}
+.button {
+  display: flex;
+}
+.button li {
+  padding-right: 5px;
+}
+
+.blue {
+  background-color: #419fc3;
+  font-size: 25px;
+  height: 50px;
+}
+.yellow {
+  background-color: #c6c052;
+  font-size: 25px;
+  height: 50px;
+}
+.pink {
+  background-color: #e02fda;
+  font-size: 25px;
+  height: 50px;
+}
+.metadata {
+  width: 60%;
+  height: 60%;
+  overflow: scroll;
+  padding-left: 0%;
+}
+.metadata li {
+  display: flex;
+  background-color: white;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.metadata ul {
+  padding-left: 0px;
+}
+
+.metadata img {
+  max-width: 50px;
+}
