@@ -64,8 +64,8 @@ button:focus {
 .metadata {
   width: 60%;
   height: 60%;
-  overflow: scroll;
-  padding-left: 0%;
+  overflow-y: scroll;
+  padding-left: 0;
 }
 .metadata li {
   display: flex;
